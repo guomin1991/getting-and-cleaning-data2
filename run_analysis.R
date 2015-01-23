@@ -28,6 +28,6 @@ activity8<-gsub(pattern="6",replacement="LAYING",activity7)
 head(activity8)
 H[,1]<-activity8
 write.table(H,"./UCI HAR Dataset/finaldataset.txt",row.name=FALSE)
-finaldataset<-read.table("D:/学习/数据分析/coursera笔记/Getting and Cleaning Data/UCI HAR Dataset/finaldataset.txt",header=TRUE)
+finaldataset<-read.table("./UCI HAR Dataset/finaldataset.txt",header=TRUE)
 finaldataset
 
